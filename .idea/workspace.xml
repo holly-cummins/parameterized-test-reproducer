@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8028f6a5-c054-4764-b812-5f1de9a2b0c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/io/smallrye/context/SmallRyeManagedExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/io/vertx/core/impl/ContextInternal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/bodyparts/Arms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/bodyparts/Eyes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/bodyparts/Hair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/bodyparts/Head.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/bodyparts/Legs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/bodyparts/Torso.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/house/HouseContractTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/house/ResidentResource$DebugAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/house/ResidentResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/resident/Resident.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/rooms/Bathroom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/rooms/BathroomTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/rooms/Bedroom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/rooms/BedroomTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/rooms/Kitchen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/trans/sample/rooms/KitchenTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/runtime/src/main/java/quarkus/io/pact/QuarkusAwareLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quarkus-pact/runtime/src/main/java/quarkus/io/pact/runtime/MyContextProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quarkus-pact/deployment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quarkus-pact/deployment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quarkus-pact/deployment/src/main/java/quarkus/io/pact/deployment/AnnotationAdjuster.java" beforeDir="false" afterPath="$PROJECT_DIR$/quarkus-pact/deployment/src/main/java/quarkus/io/pact/deployment/AnnotationAdjuster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quarkus-pact/deployment/src/main/java/quarkus/io/pact/deployment/DestructiveClassVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/quarkus-pact/deployment/src/main/java/quarkus/io/pact/deployment/DestructiveClassVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/src/test/java/sample/house/HouseContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/quarkus-pact/integration-tests/src/test/resources-filtered/projects/bff/src/test/java/sample/house/HouseContractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quarkus-pact/runtime/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quarkus-pact/runtime/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2EUq5xB3oc3QyDRe1x3bqlOlBCA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8028f6a5-c054-4764-b812-5f1de9a2b0c8" name="Changes" comment="" />
+      <created>1662660330945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662660330945</updated>
+      <workItem from="1662660332517" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
