@@ -16,7 +16,8 @@ This tests's annotations is [@quarkus.io.pact.runtime.AnnotationAddedByExtension
 
 To see the failure, 
 
-```  rm -rf integration-tests/src/test/resources-filtered/projects/bff/target && mvn clean  install verify  -DskipTests=false -DskipITs=false
+```
+rm -rf integration-tests/src/test/resources-filtered/projects/bff/target && mvn clean  install verify  -DskipTests=false -DskipITs=false
 ```
 
 To play with the failing test in more detail, 
