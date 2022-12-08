@@ -25,6 +25,7 @@ public class MyContextProvider implements TestTemplateInvocationContextProvider 
 
     @Override
     public Stream<TestTemplateInvocationContext> provideTestTemplateInvocationContexts(ExtensionContext extensionContext) {
+        System.out.println("The classloader used for the context is " + this.getClass().getClassLoader());
         Class testClass = extensionContext.getTestClass().get();
         System.out.println("Test class is " + testClass);
         System.out.println("Test class annotations is " + Arrays.toString(testClass.getAnnotations()));

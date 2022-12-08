@@ -11,8 +11,8 @@ import io.quarkiverse.acme.runtime.MyContextProvider;
 import java.lang.annotation.Annotation;
 import java.util.Arrays;
 
-// No QuarkusTest annotation
-public class ParameterizedTest {
+@QuarkusTest
+public class ParameterizedQuarkusTest {
 
 
     @TestTemplate
@@ -21,7 +21,7 @@ public class ParameterizedTest {
         Annotation[] contextAnnotations = context.getRequiredTestClass().getAnnotations();
         Annotation[] myAnnotations = this.getClass().getAnnotations();
 
-        Assertions.assertEquals(myAnnotations.length, contextAnnotations.length, "The test template sees a different version of the class than the test execution" + Arrays.toString(myAnnotations) + " vs " + Arrays.toString(contextAnnotations));
+        Assertions.assertEquals(myAnnotations.length, contextAnnotations.length, "The test template sees a different version of the class than the test execution" + Arrays.toString(myAnnotations) + " (execution) vs " + Arrays.toString(contextAnnotations) + " (context)");
     }
 
 
@@ -31,7 +31,7 @@ public class ParameterizedTest {
         ClassLoader loader = this.getClass().getClassLoader();
         ClassLoader contextLoader = context.getRequiredTestClass().getClassLoader();
 
-        Assertions.assertEquals(loader, contextLoader, "The test template is using a different classloader to the actual test." );
+        Assertions.assertEquals(loader, contextLoader, "The test template is using a different classloader to the actual test. Execution loader: " + loader + " vs template context loader " + contextLoader );
     }
 
     @TestTemplate

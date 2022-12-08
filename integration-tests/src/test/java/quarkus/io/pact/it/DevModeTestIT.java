@@ -22,7 +22,7 @@ import static org.awaitility.Awaitility.await;
  * mvn install -Dit.test=DevMojoIT#methodName
  */
 @DisabledIfSystemProperty(named = "quarkus.test.native", matches = "true")
-public class DevModeContractTestIT extends RunAndCheckMojoTestBase {
+public class DevModeTestIT extends RunAndCheckMojoTestBase {
 
 
     protected void runAndCheck(String... options) throws MavenInvocationException {
