@@ -1,6 +1,5 @@
 package sample.house;
 
-
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,7 +11,7 @@ import io.quarkiverse.acme.runtime.MyContextProvider;
 import java.lang.annotation.Annotation;
 import java.util.Arrays;
 
-@QuarkusTest // This starts the server on port 8081 for convenience in testing
+@QuarkusTest // This isn't needed for this test, but it exposes the problem
 public class ParameterizedTest {
 
     @BeforeEach
@@ -27,11 +26,9 @@ public class ParameterizedTest {
     @TestTemplate
     @ExtendWith(MyContextProvider.class)
     void verificationTestTemplate(ExtensionContext context) {
-        ClassLoader loader = this.getClass().getClassLoader();
         Annotation[] contextAnnotations = context.getRequiredTestClass().getAnnotations();
         Annotation[] myAnnotations = this.getClass().getAnnotations();
 
         Assertions.assertEquals(myAnnotations.length, contextAnnotations.length, "The test template sees a different version of the class than the test execution" + Arrays.toString(myAnnotations) + " vs " + Arrays.toString(contextAnnotations));
     }
-
 }
