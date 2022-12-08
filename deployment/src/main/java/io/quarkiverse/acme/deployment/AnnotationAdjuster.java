@@ -1,10 +1,10 @@
-package quarkus.io.pact.deployment;
+package io.quarkiverse.acme.deployment;
 
 import io.quarkus.gizmo.Gizmo;
 import org.objectweb.asm.AnnotationVisitor;
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.Type;
-import quarkus.io.pact.runtime.AnnotationAddedByExtension;
+import io.quarkiverse.acme.runtime.AnnotationAddedByExtension;
 
 
 public class AnnotationAdjuster extends ClassVisitor {

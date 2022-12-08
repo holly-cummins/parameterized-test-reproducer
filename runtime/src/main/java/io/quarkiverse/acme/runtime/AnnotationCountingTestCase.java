@@ -1,4 +1,4 @@
-package quarkus.io.pact.runtime;
+package io.quarkiverse.acme.runtime;
 
 import java.lang.annotation.Annotation;
 import java.util.Arrays;

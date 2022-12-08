@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestTemplate;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.extension.ExtensionContext;
-import quarkus.io.pact.runtime.MyContextProvider;
+import io.quarkiverse.acme.runtime.MyContextProvider;
 
 import java.lang.annotation.Annotation;
 import java.util.Arrays;

@@ -1,5 +1,5 @@
 **/target/**
-
-
+.idea/**
 *.jar
 *.class
+*.iml

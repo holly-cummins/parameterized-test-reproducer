@@ -1,4 +1,4 @@
-package quarkus.io.pact.deployment;
+package io.quarkiverse.acme.deployment;
 
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.builditem.BytecodeTransformerBuildItem;
@@ -17,7 +17,7 @@ class ExtensionProcessor {
 
     //TODO Ideally, we would not hardcode, but this is a reproducer
     @BuildStep
-    BytecodeTransformerBuildItem reworkClassLoadingOfPactSourceTest2() {
+    BytecodeTransformerBuildItem reworkClassLoadingOfParameterizedSourceTest2() {
         DotName simple = DotName.createSimple("sample.house.ParameterizedTest");
         return new BytecodeTransformerBuildItem.Builder()
                 .setClassToTransform(simple.toString())

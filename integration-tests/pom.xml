@@ -10,7 +10,7 @@
   <artifactId>classloaders-hurt-heads-integration-tests</artifactId>
   <name>Quarkus Pact - Integration Tests</name>
   <properties>
-    <skipITs>true</skipITs>
+    <skipITs>false</skipITs>
   </properties>
   <dependencies>
     <dependency>

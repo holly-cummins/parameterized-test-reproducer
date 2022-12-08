@@ -1,4 +1,4 @@
-package quarkus.io.pact.runtime;
+package io.quarkiverse.acme.runtime;
 
 
 import org.junit.jupiter.api.extension.Extension;
